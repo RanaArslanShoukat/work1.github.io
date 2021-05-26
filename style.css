@@ -1,0 +1,579 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+/* ------------------NAVBAR--------------------------------- */
+.navbar-brand img{
+    width: 150px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-right: 40PX;
+}
+.nav-link{
+    font-weight: 600;
+    color: black !important;
+    margin-left: 20px;
+}
+.nav-link:hover{
+    border-bottom: 1px solid blue;
+}
+/* ------------------slider----------------------------------- */
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+}
+.carousel-caption{
+    margin-bottom: 200px;
+    text-align: center;
+}
+.carousel-caption h1{
+    font-size: 70px;
+}
+.carousel-caption p{
+    text-justify: center;
+}
+.carousel-caption .btn{
+    background-color: #F6A50C;
+    color: #fff;
+    font-size: 13px;
+}
+.carousel-caption .fa-arrow-right{
+    color: #fff;
+    font-size: 9px;
+}
+/* ------------------who we are-------------------------------- */
+.who{
+    margin-top: 40px;
+}
+.who img{
+    width: 90%;
+    height: 90%;
+}
+.text{
+    margin-top: 120px;
+}
+.text h5{
+    font-size: 13px;
+    color: #F6A50C;
+    font-weight: 600;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text p{
+    font-weight: 600;
+}
+.text .btn{
+    background-color: #0E4876;
+    color: #fff;
+}
+.text .fa-arrow-right{
+    font-size: 12px;
+    margin-left: 12px;
+}
+/* -----------------------services--------------------------------- */
+.services{
+    background-color: #F8F8F8;
+    text-align: center;
+}
+.services h5{
+    padding-top: 70px;
+    font-size: 15px;
+    color: #F6A50C;
+    font-weight: 600;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.service-icons{
+    margin-top: 70px;
+    font-size: 80px;
+}
+.services h3{
+    margin-top: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.services p{
+    margin-bottom: 100px;
+}
+/* ----------------------what we do--------------------- */
+.what{
+    margin-bottom: 60px;
+}
+.what h5{
+    margin-top: 50px;
+    font-size: 15px;
+    color: #F6A50C;
+    font-weight: 600;
+}
+.what h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.what img{
+    width: 100%;
+    height: 100%;
+}
+.what .btn{
+    margin-top: 20px;
+    background-color: #0E4876;
+    color: #fff;
+}
+.what .fa-arrow-right{
+    font-size: 12px;
+    margin-left: 12px;
+
+}
+/* ---------------------image 1-------------------------------*/
+.image1{
+    text-align: center;
+    background-image: url('images/image5.jpg');
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.image1 .btn{
+    margin-top: 20px;
+    background-color: #F6A50C;
+    color: #fff;
+}
+.image1 .fa-arrow-right{
+    font-size: 15px;
+    margin-left: 12px;
+}
+.imag1 p{
+    font-weight: 600;
+}
+.image1 h2{
+    font-weight: 600;
+}
+/* -----------------business--------------------------------- */
+.business{
+    margin-top: 120px;
+}
+.business h5{
+    margin-top: 70px;
+    font-size: 15px;
+    color: #F6A50C;
+    font-weight: 600;
+}
+.business h1{
+    font-weight: 600;
+}
+.business .btn{
+    margin-top: 20px;
+    background-color: #0E4876;
+    color: #fff;
+}
+.business img{
+    width: 80%;
+    height: 80%;
+}
+/* -----------------image 2------------------------------------ */
+.image2{
+    text-align: center;
+    background-image: url('images/image6.jpg');
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.image2 .btn{
+    margin-top: 20px;
+    background-color: #F6A50C;
+    color: #fff;
+}
+.image2 .fa-arrow-right{
+    font-size: 15px;
+    margin-left: 12px;
+}
+.imag2 p{
+    font-weight: 600;
+}
+.image2 h2{
+    font-weight: 600;
+}
+/* -------------------------Insurance--------------------------- */
+.insurance{
+    margin-top: 120px;
+}
+.insurance h5{
+    margin-top: 70px;
+    font-size: 15px;
+    color: #F6A50C;
+    font-weight: 600;
+}
+.insurance h1{
+    font-weight: 600;
+}
+.insurance .btn{
+    margin-top: 20px;
+    background-color: #0E4876;
+    color: #fff;
+}
+.insurance img{
+    width: 60%;
+    height: 80%;
+    margin-left: 130px;
+}
+/* ------------------------------Testimonials---------------------- */
+.img-text{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+}
+.img-text h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.img-text p{
+    font-size: 25px;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+}
+.img-area img{
+    width: 50%;
+}
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel-indicators li{
+    background: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators .active{
+    background: #fff;
+}
+/* --------------------------contact---------------------------- */
+.contact a{
+    text-decoration: none;
+}
+/*----------------------------- media query--------------------- */
+
+@media (min-width: 992px) { 
+    .navbar-brand img{
+        width: 100px;
+        margin-left: 10px;
+    }
+    .nav-link{
+        font-weight: 600;
+        color: black !important;
+        font-size: 10px;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid blue;
+    }
+    .what{
+        margin-bottom: 100px;
+    }
+    .business{
+        margin-bottom: 100px;
+    }
+    .insurance{
+        margin-bottom: 100px;
+    }
+    .img-text p{
+        font-size: 15px;
+    }
+    .img-area{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 5px solid #fff;
+        overflow: hidden;
+        top: 15px;
+        left: 100px;
+        border-radius: 50%;
+    }
+    .img-text h3{
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .carousel-caption h1{
+        font-size: 50px;
+    }
+    .carousel-caption p{
+        text-justify: center;
+        font-size: 10px;
+    }
+    .who img{
+        width: 75%;
+        height: 75%;
+    }
+    .text{
+        margin-top: 120px;
+    }
+    .text h5{
+        font-size: 10px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .text p{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .who{
+        margin-bottom: 100px;
+    }
+    .services h5{
+        padding-top: 70px;
+        font-size: 10px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .services h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .service-icons{
+        margin-top: 70px;
+        font-size: 80px;
+    }
+    .services h3{
+        margin-top: 40px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .services p{
+        margin-bottom: 100px;
+        font-size: 12px;
+    }
+    .what h5{
+        margin-top: 50px;
+        font-size: 10px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .what h1{
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .what img{
+        width: 90%;
+        height: 90%;
+    }
+    .what p{
+        font-size: 12px;
+    }
+    .business h5{
+        margin-top: 70px;
+        font-size: 10px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .business h1{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .business p{
+        font-size: 12px;
+    }
+    .business{
+        margin-bottom: 100px;
+    }
+    .insurance h5{
+        margin-top: 70px;
+        font-size: 10px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .insurance h1{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .insurance p{
+        font-size: 12px;
+    }
+    .insurance img{
+        margin-left: 0px;
+        width: 80%;
+        height: 80%;
+    }
+    .insurance{
+        margin-bottom: 100px;
+    }
+    .img-text p{
+        font-size: 12px;
+    }
+    .img-area{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 5px solid #fff;
+        overflow: hidden;
+        top: 15px;
+        left: 58px;
+        border-radius: 50%;
+    }
+    .img-text h3{
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width:576px){
+    .who img{
+        margin-top: 60px;
+        width: 65%;
+        height: 65%;
+    }
+    .text{
+        margin-top: 100px;
+    }
+    .text h5{
+        font-size: 8px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .text h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text p{
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .who{
+        margin-bottom: 100px;
+    }
+    .services h5{
+        padding-top: 70px;
+        font-size: 8px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .services h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .service-icons{
+        margin-top: 70px;
+        font-size: 70px;
+    }
+    .services h3{
+        margin-top: 40px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .services p{
+        margin-bottom: 100px;
+        font-size: 10px;
+    }
+    .what h5{
+        margin-top: 50px;
+        font-size: 8px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .what h1{
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .what img{
+        width: 70%;
+        height: 70%;
+    }
+    .what p{
+        font-size: 10px;
+    }
+    .business h5{
+        margin-top: 70px;
+        font-size: 8px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .business h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .business p{
+        font-size: 10px;
+    }
+    .business{
+        margin-bottom: 100px;
+    }
+    .insurance h5{
+        margin-top: 70px;
+        font-size: 8px;
+        color: #F6A50C;
+        font-weight: 600;
+    }
+    .insurance h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .insurance p{
+        font-size: 10px;
+    }
+    .insurance img{
+        margin-left: 0px;
+        width: 80%;
+        height: 80%;
+    }
+    .insurance{
+        margin-bottom: 100px;
+    }
+    .img-text p{
+        font-size: 12px;
+    }
+    .img-area{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: 5px solid #fff;
+        overflow: hidden;
+        top: 15px;
+        left: 150px;
+        border-radius: 50%;
+    }
+    .img-text h3{
+        font-size: 19px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 12px;
+    }
+    .test{
+        width: 70%;
+        height: 70%;
+        margin: 30px 90px;
+    }
+}
